@@ -1,0 +1,31 @@
+header {
+    display: flex;
+}
+
+.h1accounting {
+    color: green;
+}
+
+.tlf {
+    padding-top: 1%;
+    margin-left: 10%;
+}
+
+.idioma {
+    padding-top: 1%;
+    margin-left: auto;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+
+}
+
+li {
+    margin-right: 3%;
+}
+
+a {
+    text-decoration: none;
+}
