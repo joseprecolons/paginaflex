@@ -8,24 +8,97 @@ header {
 
 .tlf {
     padding-top: 1%;
-    margin-left: 10%;
+    margin-left: 7%;
+    color: grey;
 }
 
 .idioma {
     padding-top: 1%;
     margin-left: auto;
+    color: grey;
 }
 
 ul {
-    list-style-type: none;
     display: flex;
-
+    list-style-type: none;
+    flex-wrap: wrap;    
 }
 
 li {
-    margin-right: 3%;
+    margin-right: 5%;
+    padding: 1%;
+    /* border: red solid; */
 }
 
-a {
+.refnav {
     text-decoration: none;
+    color: grey;
+    display: block;
+    padding: 10px;
+}
+
+.negrita {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    display: block;
+    padding: 10px;
+}
+
+li:hover>.refnav{
+    color: white;
+    background-color: rgb(4, 172, 18);
+}
+
+li:hover>.negrita{
+    color: white;
+    background-color: rgb(4, 172, 18);
+}
+
+
+article {
+    display: flex;
+    /* border: red solid; */
+    
+}
+
+.imgprincipal {
+    width: 100%;
+    height: auto;
+}
+
+ section {
+    width: 100%;
+    margin: auto;
+    /* border: blue solid; */
+ }
+
+.textsection {
+    padding-bottom: 3%;
+    padding-right: 20%;
+    /* border:red solid; */
+}
+
+.refsection {
+    text-decoration: none;
+    color: white;
+    background-color: green;
+    padding: 2.5%;
+}
+
+footer {
+    display: flex;
+    margin-top: 3%;
+}
+
+.imatgefooter {
+    margin-left: auto;
+}
+
+.textfooter {
+    color: grey;
+}
+
+p {
+    color: grey;
 }
